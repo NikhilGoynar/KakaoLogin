@@ -944,7 +944,6 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               Expanded(
                                 child: TextFormField(
                                   controller: textController,
-                                  autofocus: true,
                                   obscureText: false,
                                   decoration: InputDecoration(
                                     hintText: '키워드 검색',
